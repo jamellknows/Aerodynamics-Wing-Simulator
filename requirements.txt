@@ -1,0 +1,22 @@
+# requirements.txt
+
+# General scientific computing libraries
+numpy==1.21.5
+scipy==1.7.3
+mpmath==1.2.1
+sympy==1.10
+matplotlib==3.4.3
+
+# Specific integrators and mathematical tools
+scipy==1.7.3
+mpmath==1.2.1
+sympy==1.10
+
+# Regular expressions
+regex==2022.1.24
+
+# Animation
+matplotlib==3.4.3
+
+# Additional dependencies
+# Add any other dependencies specific to your project
