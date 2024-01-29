@@ -10,23 +10,19 @@ Python 3.x
 Dependencies specified in the requirements.txt file
 You can install the required dependencies by running:
 
-bash
-Copy code
+
 pip install -r requirements.txt
 Usage
 1. Running wind_sim for Individual NACA Airfoils
 Navigate to the directory containing the wind_sim.py file and run the following command:
 
-bash
-Copy code
+
 python wind_sim.py
 This will execute the simulation for individual NACA airfoils based on the new equations derived from the Navier-Stokes problem.
 
 2. Running wing_sim for 3D Airfoils
 Navigate to the directory containing the wing_sim.py file and run the following command:
 
-bash
-Copy code
 python wing_sim.py
 The wing_sim script internally calls wind_sim to simulate the aerodynamics of individual NACA airfoils and combines the results to provide a comprehensive analysis of 3D airfoils.
 
